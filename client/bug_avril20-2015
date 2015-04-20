@@ -1,0 +1,248 @@
+Is it installed?
+=> No it isn't. Installing weboob...
+[install.sh] -- New python executable in ./env/bin/python
+Installing setuptools, pip...
+[install.sh] -- done.
+[install.sh] -- You are using pip version 6.0.8, however version 6.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[install.sh] -- Collecting git+git://git.symlink.me/pub/romain/weboob (from -r requirements.txt (line 1))
+[install.sh] --   Cloning git://git.symlink.me/pub/romain/weboob to /tmp/pip-RMKqO2-build
+[install.sh] -- Collecting git+git://git.symlink.me/pub/weboob/modules (from -r requirements.txt (line 2))
+[install.sh] --   Cloning git://git.symlink.me/pub/weboob/modules to /tmp/pip-KQUVeS-build
+[install.sh] --     /usr/local/cozy/apps/kresus/weboob/env/local/lib/python2.7/site-packages/setuptools/dist.py:292: UserWarning: The version specified ('0.h') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+      "details." % self.metadata.version
+[install.sh] -- Collecting cssselect (from -r requirements.txt (line 3))
+[install.sh] --   Downloading cssselect-0.9.1.tar.gz
+[install.sh] -- Collecting lxml (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading lxml-3.4.3.tar.gz (3.5MB)
+[install.sh] --     /usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'bugtrack_url'
+      warnings.warn(msg)
+    Building lxml version 3.4.3.
+    Building without Cython.
+    Using build configuration of libxslt 1.1.26
+    Building against libxml2/libxslt in the following directory: /usr/lib
+[install.sh] -- Collecting feedparser (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading feedparser-5.2.0.post1.tar.bz2 (192kB)
+[install.sh] -- Collecting requests (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading requests-2.6.0-py2.py3-none-any.whl (469kB)
+[install.sh] -- Collecting python-dateutil (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading python_dateutil-2.4.2-py2.py3-none-any.whl (188kB)
+[install.sh] -- Collecting PyYAML (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading PyYAML-3.11.tar.gz (248kB)
+[install.sh] -- Collecting prettytable (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading prettytable-0.7.2.tar.bz2
+[install.sh] -- Collecting Pillow (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading Pillow-2.8.1.tar.gz (9.0MB)
+[install.sh] --     Single threaded build, not installing mp_compile: 1 processes
+[install.sh] -- Collecting gdata (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading gdata-2.0.18.tar.gz (2.5MB)
+[install.sh] -- Collecting mechanize (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading mechanize-0.2.5.tar.gz (383kB)
+[install.sh] -- Collecting futures (from weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading futures-2.2.0-py2.py3-none-any.whl
+[install.sh] -- Collecting six>=1.5 (from python-dateutil->weboob==1.1->-r requirements.txt (line 1))
+[install.sh] --   Downloading six-1.9.0-py2.py3-none-any.whl
+[install.sh] -- Installing collected packages: six, weboob-modules, weboob, futures, mechanize, gdata, Pillow, prettytable, PyYAML, python-dateutil, requests, feedparser, lxml, cssselect
+[install.sh] --
+[install.sh] --   Running setup.py install for weboob-modules
+[install.sh] --     /usr/local/cozy/apps/kresus/weboob/env/local/lib/python2.7/site-packages/setuptools/dist.py:292: UserWarning: The version specified ('0.h') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+[install.sh] --       "details." % self.metadata.version
+[install.sh] --     /usr/local/cozy/apps/kresus/weboob/env/local/lib/python2.7/site-packages/pkg_resources/__init__.py:2510: PEP440Warning: 'weboob-modules (0.h)' is being parsed as a legacy, non PEP 440, version. You may find odd behavior and sort order. In particular it will be sorted as less than 0.0. It is recommend to migrate to PEP 440 compatible versions.
+[install.sh] --       PEP440Warning,
+[install.sh] --   Running setup.py install for weboob
+[install.sh] --     changing mode of build/scripts-2.7/weboob-config from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/weboob-repos from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/weboob-debug from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/boobathon from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/galleroob from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/suboob from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/wetboobs from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/boobank from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/webcontentedit from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/traveloob from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/boobtracker from 644 to 755
+    changing mode of build/scripts-2.7/monboob from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/handjoob from 644 to 755
+    changing mode of build/scripts-2.7/translaboob from 644 to 755
+    changing mode of build/scripts-2.7/videoob from 644 to 755
+    changing mode of build/scripts-2.7/flatboob from 644 to 755
+    changing mode of build/scripts-2.7/radioob from 644 to 755
+    changing mode of build/scripts-2.7/geolooc from 644 to 755
+    changing mode of build/scripts-2.7/weboob-cli from 644 to 755
+    changing mode of build/scripts-2.7/parceloob from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/cineoob from 644 to 755
+    changing mode of build/scripts-2.7/boobmsg from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/boobill from 644 to 755
+    changing mode of build/scripts-2.7/boobcoming from 644 to 755
+    changing mode of build/scripts-2.7/pastoob from 644 to 755
+    changing mode of build/scripts-2.7/boobsize from 644 to 755
+    changing mode of build/scripts-2.7/boobooks from 644 to 755
+    changing mode of build/scripts-2.7/comparoob from 644 to 755
+    changing mode of build/scripts-2.7/booblyrics from 644 to 755
+    changing mode of build/scripts-2.7/cookboob from 644 to 755
+    changing mode of build/scripts-2.7/weboorrents from 644 to 755
+    changing mode of build/scripts-2.7/shopoob from 644 to 755
+    changing mode of build/scripts-2.7/havedate from 644 to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobtracker to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/geolooc to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/weboob-repos to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/weboob-cli to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/cookboob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobcoming to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobill to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobsize to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/cineoob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/weboorrents to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/webcontentedit to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/shopoob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/weboob-debug to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/traveloob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobank to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/wetboobs to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/comparoob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/videoob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/pastoob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/weboob-config to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/suboob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobooks to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobmsg to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/havedate to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/flatboob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/parceloob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/monboob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/radioob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/boobathon to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/handjoob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/galleroob to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/booblyrics to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/translaboob to 755
+[install.sh] --
+[install.sh] --   Running setup.py install for mechanize
+[install.sh] --   Running setup.py install for gdata
+[install.sh] --   Running setup.py install for Pillow
+[install.sh] --     Single threaded build, not installing mp_compile: 1 processes
+[install.sh] --     building 'PIL._imaging' extension
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c _imaging.c -o build/temp.linux-x86_64-2.7/_imaging.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c decode.c -o build/temp.linux-x86_64-2.7/decode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c encode.c -o build/temp.linux-x86_64-2.7/encode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c map.c -o build/temp.linux-x86_64-2.7/map.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c display.c -o build/temp.linux-x86_64-2.7/display.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c outline.c -o build/temp.linux-x86_64-2.7/outline.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c path.c -o build/temp.linux-x86_64-2.7/path.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Access.c -o build/temp.linux-x86_64-2.7/libImaging/Access.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/AlphaComposite.c -o build/temp.linux-x86_64-2.7/libImaging/AlphaComposite.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Resample.c -o build/temp.linux-x86_64-2.7/libImaging/Resample.o
+    libImaging/Resample.c:87:45: warning: always_inline function might not be inlinable [-Wattributes]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Bands.c -o build/temp.linux-x86_64-2.7/libImaging/Bands.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/BitDecode.c -o build/temp.linux-x86_64-2.7/libImaging/BitDecode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Blend.c -o build/temp.linux-x86_64-2.7/libImaging/Blend.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Chops.c -o build/temp.linux-x86_64-2.7/libImaging/Chops.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Convert.c -o build/temp.linux-x86_64-2.7/libImaging/Convert.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/ConvertYCbCr.c -o build/temp.linux-x86_64-2.7/libImaging/ConvertYCbCr.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Copy.c -o build/temp.linux-x86_64-2.7/libImaging/Copy.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Crc32.c -o build/temp.linux-x86_64-2.7/libImaging/Crc32.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Crop.c -o build/temp.linux-x86_64-2.7/libImaging/Crop.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Dib.c -o build/temp.linux-x86_64-2.7/libImaging/Dib.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Draw.c -o build/temp.linux-x86_64-2.7/libImaging/Draw.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Effects.c -o build/temp.linux-x86_64-2.7/libImaging/Effects.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/EpsEncode.c -o build/temp.linux-x86_64-2.7/libImaging/EpsEncode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/File.c -o build/temp.linux-x86_64-2.7/libImaging/File.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Fill.c -o build/temp.linux-x86_64-2.7/libImaging/Fill.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Filter.c -o build/temp.linux-x86_64-2.7/libImaging/Filter.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/FliDecode.c -o build/temp.linux-x86_64-2.7/libImaging/FliDecode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Geometry.c -o build/temp.linux-x86_64-2.7/libImaging/Geometry.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/GetBBox.c -o build/temp.linux-x86_64-2.7/libImaging/GetBBox.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/GifDecode.c -o build/temp.linux-x86_64-2.7/libImaging/GifDecode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/GifEncode.c -o build/temp.linux-x86_64-2.7/libImaging/GifEncode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/HexDecode.c -o build/temp.linux-x86_64-2.7/libImaging/HexDecode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Histo.c -o build/temp.linux-x86_64-2.7/libImaging/Histo.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/JpegDecode.c -o build/temp.linux-x86_64-2.7/libImaging/JpegDecode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/JpegEncode.c -o build/temp.linux-x86_64-2.7/libImaging/JpegEncode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/LzwDecode.c -o build/temp.linux-x86_64-2.7/libImaging/LzwDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Matrix.c -o build/temp.linux-x86_64-2.7/libImaging/Matrix.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/ModeFilter.c -o build/temp.linux-x86_64-2.7/libImaging/ModeFilter.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/MspDecode.c -o build/temp.linux-x86_64-2.7/libImaging/MspDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Negative.c -o build/temp.linux-x86_64-2.7/libImaging/Negative.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Offset.c -o build/temp.linux-x86_64-2.7/libImaging/Offset.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Pack.c -o build/temp.linux-x86_64-2.7/libImaging/Pack.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/PackDecode.c -o build/temp.linux-x86_64-2.7/libImaging/PackDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Palette.c -o build/temp.linux-x86_64-2.7/libImaging/Palette.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Paste.c -o build/temp.linux-x86_64-2.7/libImaging/Paste.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Quant.c -o build/temp.linux-x86_64-2.7/libImaging/Quant.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/QuantOctree.c -o build/temp.linux-x86_64-2.7/libImaging/QuantOctree.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/QuantHash.c -o build/temp.linux-x86_64-2.7/libImaging/QuantHash.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/QuantHeap.c -o build/temp.linux-x86_64-2.7/libImaging/QuantHeap.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/PcdDecode.c -o build/temp.linux-x86_64-2.7/libImaging/PcdDecode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/PcxDecode.c -o build/temp.linux-x86_64-2.7/libImaging/PcxDecode.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/PcxEncode.c -o build/temp.linux-x86_64-2.7/libImaging/PcxEncode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Point.c -o build/temp.linux-x86_64-2.7/libImaging/Point.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/RankFilter.c -o build/temp.linux-x86_64-2.7/libImaging/RankFilter.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/RawDecode.c -o build/temp.linux-x86_64-2.7/libImaging/RawDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/RawEncode.c -o build/temp.linux-x86_64-2.7/libImaging/RawEncode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Storage.c -o build/temp.linux-x86_64-2.7/libImaging/Storage.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/SunRleDecode.c -o build/temp.linux-x86_64-2.7/libImaging/SunRleDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/TgaRleDecode.c -o build/temp.linux-x86_64-2.7/libImaging/TgaRleDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Unpack.c -o build/temp.linux-x86_64-2.7/libImaging/Unpack.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/UnpackYCC.c -o build/temp.linux-x86_64-2.7/libImaging/UnpackYCC.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/UnsharpMask.c -o build/temp.linux-x86_64-2.7/libImaging/UnsharpMask.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/XbmDecode.c -o build/temp.linux-x86_64-2.7/libImaging/XbmDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/XbmEncode.c -o build/temp.linux-x86_64-2.7/libImaging/XbmEncode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/ZipDecode.c -o build/temp.linux-x86_64-2.7/libImaging/ZipDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/ZipEncode.c -o build/temp.linux-x86_64-2.7/libImaging/ZipEncode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/TiffDecode.c -o build/temp.linux-x86_64-2.7/libImaging/TiffDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Incremental.c -o build/temp.linux-x86_64-2.7/libImaging/Incremental.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Jpeg2KDecode.c -o build/temp.linux-x86_64-2.7/libImaging/Jpeg2KDecode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/Jpeg2KEncode.c -o build/temp.linux-x86_64-2.7/libImaging/Jpeg2KEncode.o
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DHAVE_LIBZ -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c libImaging/BoxBlur.c -o build/temp.linux-x86_64-2.7/libImaging/BoxBlur.o
+[install.sh] --     gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/_imaging.o build/temp.linux-x86_64-2.7/decode.o build/temp.linux-x86_64-2.7/encode.o build/temp.linux-x86_64-2.7/map.o build/temp.linux-x86_64-2.7/display.o build/temp.linux-x86_64-2.7/outline.o build/temp.linux-x86_64-2.7/path.o build/temp.linux-x86_64-2.7/libImaging/Access.o build/temp.linux-x86_64-2.7/libImaging/AlphaComposite.o build/temp.linux-x86_64-2.7/libImaging/Resample.o build/temp.linux-x86_64-2.7/libImaging/Bands.o build/temp.linux-x86_64-2.7/libImaging/BitDecode.o build/temp.linux-x86_64-2.7/libImaging/Blend.o build/temp.linux-x86_64-2.7/libImaging/Chops.o build/temp.linux-x86_64-2.7/libImaging/Convert.o build/temp.linux-x86_64-2.7/libImaging/ConvertYCbCr.o build/temp.linux-x86_64-2.7/libImaging/Copy.o build/temp.linux-x86_64-2.7/libImaging/Crc32.o build/temp.linux-x86_64-2.7/libImaging/Crop.o build/temp.linux-x86_64-2.7/libImaging/Dib.o build/temp.linux-x86_64-2.7/libImaging/Draw.o build/temp.linux-x86_64-2.7/libImaging/Effects.o build/temp.linux-x86_64-2.7/libImaging/EpsEncode.o build/temp.linux-x86_64-2.7/libImaging/File.o build/temp.linux-x86_64-2.7/libImaging/Fill.o build/temp.linux-x86_64-2.7/libImaging/Filter.o build/temp.linux-x86_64-2.7/libImaging/FliDecode.o build/temp.linux-x86_64-2.7/libImaging/Geometry.o build/temp.linux-x86_64-2.7/libImaging/GetBBox.o build/temp.linux-x86_64-2.7/libImaging/GifDecode.o build/temp.linux-x86_64-2.7/libImaging/GifEncode.o build/temp.linux-x86_64-2.7/libImaging/HexDecode.o build/temp.linux-x86_64-2.7/libImaging/Histo.o build/temp.linux-x86_64-2.7/libImaging/JpegDecode.o build/temp.linux-x86_64-2.7/libImaging/JpegEncode.o build/temp.linux-x86_64-2.7/libImaging/LzwDecode.o build/temp.linux-x86_64-2.7/libImaging/Matrix.o build/temp.linux-x86_64-2.7/libImaging/ModeFilter.o build/temp.linux-x86_64-2.7/libImaging/MspDecode.o build/temp.linux-x86_64-2.7/libImaging/Negative.o build/temp.linux-x86_64-2.7/libImaging/Offset.o build/temp.linux-x86_64-2.7/libImaging/Pack.o build/temp.linux-x86_64-2.7/libImaging/PackDecode.o build/temp.linux-x86_64-2.7/libImaging/Palette.o build/temp.linux-x86_64-2.7/libImaging/Paste.o build/temp.linux-x86_64-2.7/libImaging/Quant.o build/temp.linux-x86_64-2.7/libImaging/QuantOctree.o build/temp.linux-x86_64-2.7/libImaging/QuantHash.o build/temp.linux-x86_64-2.7/libImaging/QuantHeap.o build/temp.linux-x86_64-2.7/libImaging/PcdDecode.o build/temp.linux-x86_64-2.7/libImaging/PcxDecode.o build/temp.linux-x86_64-2.7/libImaging/PcxEncode.o build/temp.linux-x86_64-2.7/libImaging/Point.o build/temp.linux-x86_64-2.7/libImaging/RankFilter.o build/temp.linux-x86_64-2.7/libImaging/RawDecode.o build/temp.linux-x86_64-2.7/libImaging/RawEncode.o build/temp.linux-x86_64-2.7/libImaging/Storage.o build/temp.linux-x86_64-2.7/libImaging/SunRleDecode.o build/temp.linux-x86_64-2.7/libImaging/TgaRleDecode.o build/temp.linux-x86_64-2.7/libImaging/Unpack.o build/temp.linux-x86_64-2.7/libImaging/UnpackYCC.o build/temp.linux-x86_64-2.7/libImaging/UnsharpMask.o build/temp.linux-x86_64-2.7/libImaging/XbmDecode.o build/temp.linux-x86_64-2.7/libImaging/XbmEncode.o build/temp.linux-x86_64-2.7/libImaging/ZipDecode.o build/temp.linux-x86_64-2.7/libImaging/ZipEncode.o build/temp.linux-x86_64-2.7/libImaging/TiffDecode.o build/temp.linux-x86_64-2.7/libImaging/Incremental.o build/temp.linux-x86_64-2.7/libImaging/Jpeg2KDecode.o build/temp.linux-x86_64-2.7/libImaging/Jpeg2KEncode.o build/temp.linux-x86_64-2.7/libImaging/BoxBlur.o -L/usr/local/cozy/apps/kresus/weboob/env/lib -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -lz -o build/lib.linux-x86_64-2.7/PIL/_imaging.so
+[install.sh] --     building 'PIL._imagingmath' extension
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c _imagingmath.c -o build/temp.linux-x86_64-2.7/_imagingmath.o
+[install.sh] --     gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/_imagingmath.o -L/usr/local/cozy/apps/kresus/weboob/env/lib -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -o build/lib.linux-x86_64-2.7/PIL/_imagingmath.so
+[install.sh] --     building 'PIL._imagingmorph' extension
+[install.sh] --     gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/tmp/pip-build-vKZe9q/Pillow/libImaging -I/usr/local/cozy/apps/kresus/weboob/env/include -I/usr/local/include -I/usr/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -c _imagingmorph.c -o build/temp.linux-x86_64-2.7/_imagingmorph.o
+[install.sh] --     gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-x86_64-2.7/_imagingmorph.o -L/usr/local/cozy/apps/kresus/weboob/env/lib -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -o build/lib.linux-x86_64-2.7/PIL/_imagingmorph.so
+[install.sh] --     --------------------------------------------------------------------
+[install.sh] --     PIL SETUP SUMMARY
+[install.sh] --     --------------------------------------------------------------------
+[install.sh] --     version      Pillow 2.8.1
+[install.sh] --     platform     linux2 2.7.3 (default, Mar 13 2014, 11:03:55)
+[install.sh] --                  [GCC 4.7.2]
+[install.sh] --     --------------------------------------------------------------------
+[install.sh] --     *** TKINTER support not available
+[install.sh] --     *** JPEG support not available
+[install.sh] --     *** OPENJPEG (JPEG2000) support not available
+[install.sh] --     --- ZLIB (PNG/ZIP) support available
+[install.sh] --     *** LIBTIFF support not available
+[install.sh] --     *** FREETYPE2 support not available
+[install.sh] --     *** LITTLECMS2 support not available
+[install.sh] --     *** WEBP support not available
+[install.sh] --     *** WEBPMUX support not available
+[install.sh] --     --------------------------------------------------------------------
+[install.sh] --     To add a missing option, make sure you have the required
+[install.sh] --     library, and set the corresponding ROOT variable in the
+[install.sh] --     setup.py script.
+[install.sh] --     To check the build, run the selftest.py script.
+[install.sh] --     changing mode of build/scripts-2.7/pilconvert.py from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/pilfont.py from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/pilfile.py from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/pilprint.py from 644 to 755
+[install.sh] --     changing mode of build/scripts-2.7/pildriver.py from 644 to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/pilconvert.py to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/pilfont.py to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/pilfile.py to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/pilprint.py to 755
+[install.sh] --     changing mode of /usr/local/cozy/apps/kresus/weboob/env/bin/pildriver.py to 755
+[install.sh] --   Running setup.py install for prettytable
+[install.sh] --   Running setup.py install for PyYAML
+[install.sh] --     checking if libyaml is compilable
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c build/temp.linux-x86_64-2.7/check_libyaml.c -o build/temp.linux-x86_64-2.7/check_libyaml.o
+    build/temp.linux-x86_64-2.7/check_libyaml.c:2:18: fatal error: yaml.h: No such file or directory
+    compilation terminated.
+    libyaml is not found or a compiler error: forcing --without-libyaml
+    (if libyaml is installed correctly, you may need to
+     specify the option --include-dirs or uncomment and
+     modify the parameter include_dirs in setup.cfg)
+[install.sh] --
+[install.sh] --
+[install.sh] --   Running setup.py install for feedparser
+[install.sh] --   Running setup.py install for lxml
